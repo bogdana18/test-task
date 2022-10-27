@@ -13,7 +13,7 @@ export const UsersBlock = ({
         <div className="title is-2">Nothing</div>
       ) : (
         <>
-          <div className="content page__content">
+          <div className="content">
             {users.map((user, i) => {
               return <UserTile user={user} key={user.login.uuid} />;
             })}

@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 export const UserTile = ({ user }) => {
   return (
-    <div className="card card__item content__card">
+    <div className="card content__card">
       <div class="card-image image">
         <figure class="image is-128x128">
           <img
